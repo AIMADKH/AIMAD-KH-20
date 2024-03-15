@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #5e3b3b;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #cc4949;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links li:first-child {
+    margin-left: 0;
+}
+
+.nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links li a:hover {
+    color: #ccc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    width: 400px; /* عرض الصورة */
+    height: 300px; /* ارتفاع الصورة */
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #c42424;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+
+
+header {
+    background-color: #177772;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20;
+}
+
+header img {
+    width: 150px; /* تعديل حجم الشعار حسب الحاجة */
+    height: 140px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 50px 20px;
+}
